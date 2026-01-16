@@ -11,9 +11,13 @@ namespace FSLesson8
     {
         static void Main(string[] args)
         {
-            int num1 = 5;
-            int num2 = 3;
-            Console.WriteLine(num1.MySum(num2));
+            //int num1 = 5;
+            //Console.WriteLine(num1.MySum(4));
+
+            int a = 10;
+            int b = 5;
+
+            Console.WriteLine(a.Multiply(b));
         }
     }
 }
