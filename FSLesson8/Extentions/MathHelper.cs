@@ -10,6 +10,8 @@ namespace FSLesson8.Extentions
     {
         public static int Add (this int a, int b) 
         {
+
+
             return a + b;
         }
         public static int Subtract(this int a, int b)

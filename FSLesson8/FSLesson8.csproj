@@ -46,6 +46,7 @@
     <Compile Include="Extentions\Extentions.cs" />
     <Compile Include="Extentions\MathHelper.cs" />
     <Compile Include="Models\Car.cs" />
+    <Compile Include="Models\UserCounter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

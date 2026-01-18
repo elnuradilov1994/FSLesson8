@@ -1,4 +1,5 @@
 ﻿using FSLesson8.Extentions;
+using FSLesson8.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,23 @@ namespace FSLesson8
             //int num1 = 5;
             //Console.WriteLine(num1.MySum(4));
 
-            int a = 10;
-            int b = 5;
+            //int a = 10;
+            //int b = 5;
 
-            Console.WriteLine(a.Multiply(b));
+            //Console.WriteLine(a.Multiply(b));
+
+            UserCounter user1 = new UserCounter();
+
+
+            UserCounter.RegisterUser();
+            UserCounter.RegisterUser();
+            UserCounter.RegisterUser();
+            UserCounter.RegisterUser();
+            UserCounter.RegisterUser();
+
+            UserCounter.ShowCount();
         }
     }
 }
+    
+
